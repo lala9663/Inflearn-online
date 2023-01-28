@@ -23,7 +23,7 @@ public class MemberController {
     }
 
     @PostMapping
-    public String create(MemberForm form) {
+    public String creatde(MemberForm form) {
         Member member = new Member();
         member.setName(form.getName());
 
