@@ -29,7 +29,7 @@ public class MemberController {
 
         System.out.println("member = " + member.getName());
 
-        memberService.join(member);
+        memberServicde.join(member);
 
         return "redirect:/";
     }
